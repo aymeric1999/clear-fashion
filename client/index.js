@@ -34,8 +34,8 @@ console.log(MY_FAVORITE_BRANDS[0]);
 // I can find on these e-shops
 // 2. Log the variable
 
-
-
+const cheapesttee= 'https://www.loom.fr/collections/tous-les-vetements/products/le-t-shirt';
+console.log(cheapesttee);
 
 
 /**
@@ -50,12 +50,16 @@ console.log(MY_FAVORITE_BRANDS[0]);
 // 🎯 TODO: Number of products
 // 1. Create a variable and assign it the number of products
 // 2. Log the variable
+const numberofproducts= marketplace.length;
+console.log(numberofproducts);
 
 
 // 🎯 TODO: Brands name
 // 1. Create a variable and assign it the list of brands name only
 // 2. Log the variable
 // 3. Log how many brands we have
+const brandslist=marketplace.map(product => product.brand);
+console.log([... new Set(brandslist)]);
 
 
 // 🎯 TODO: Sort by price
